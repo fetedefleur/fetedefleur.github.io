@@ -1860,7 +1860,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #bc9b5d;
 		}
 
 	select {
@@ -2746,6 +2746,9 @@ input, select, textarea {
 			background-size: cover;
 			color: #000000;
 			height: 100vh;
+			::placeholder { /* Most modern browsers support this now. */
+   color:    #909;
+}
 		}
 
 
